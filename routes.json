@@ -1,0 +1,21 @@
+{
+  "routes": [],
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html"
+    }
+  },
+  "globalHeaders": {
+    "X-Frame-Options": "DENY"
+  },
+  "redirects": [
+    {
+      "source": "https://pgreat.cloud/*",
+      "destination": "https://www.pgreat.cloud/:splat",
+      "statusCode": 301
+    }
+  ]
+}
