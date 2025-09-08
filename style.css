@@ -219,6 +219,53 @@ footer {
 
 
 
+/* ===== NAVIGATION FIX ===== */
+
+/* Make nav links line up neatly */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav div {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap; /* allows wrapping if needed */
+}
+
+.nav-button {
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+
+  font-weight: 500;
+}
+
+
+}
+
+/* Mobile view fix */
+@media (max-width: 600px) {
+  nav div {
+    width: 100%;
+    justify-content: center; /* center the buttons */
+    margin-top: 0.5rem;
+  }
+  .nav-button {
+    flex: 1 1 auto; /* let buttons resize equally */
+    text-align: center;
+  }
+}
 
 
 
