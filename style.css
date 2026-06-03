@@ -1,4 +1,3 @@
-```css
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* =========================
@@ -42,7 +41,7 @@ main {
 .updates-box,
 .home-card {
   background: #fffaf4;
-  border-radius: 18px;
+  border-radius: 12px;
   padding: 32px;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
   border: 1px solid #eadfd3;
@@ -76,7 +75,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: #d8d0c6;
+  background: #D9C4B0;
   color: #000000;
   padding: 14px 24px;
   display: flex;
@@ -135,13 +134,13 @@ a.btn,
   text-decoration: none;
   font-weight: 600;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  border-radius: 12px;
 }
 
 a.btn {
   padding: 12px 20px;
   background: #b49a7d;
   color: #ffffff;
-  border-radius: 4px;
 }
 
 a.btn:hover {
@@ -152,13 +151,12 @@ a.btn:hover {
 
 .link-button {
   display: block;
-  width: 100%;
-  max-width: 520px;
+  width: 85%;
+  max-width: 420px;
   margin: 18px auto;
   padding: 18px 24px;
   background: #b49a7d;
   color: #ffffff;
-  border-radius: 4px;
   text-align: center;
   box-shadow: none;
 }
@@ -174,7 +172,6 @@ a.btn:hover {
   padding: 10px 16px;
   background: #b49a7d;
   color: #ffffff;
-  border-radius: 4px;
 }
 
 .btn-footer:hover {
@@ -259,7 +256,7 @@ textarea {
 button {
   padding: 12px 18px;
   border: 0;
-  border-radius: 4px;
+  border-radius: 12px;
   background: #b49a7d;
   color: #ffffff;
   font-weight: 600;
@@ -279,7 +276,7 @@ footer {
   margin-top: auto;
   padding: 18px 20px;
   text-align: center;
-  background: #8D6944;
+  background: #C4A484;
   color: #000000;
   border-top: 1px solid #c7bdb2;
 }
@@ -338,11 +335,14 @@ footer a:hover {
   .updates-box,
   .home-card {
     padding: 24px;
-    border-radius: 16px;
+    border-radius: 12px;
+  }
+
+  .link-button {
+    width: 90%;
+    max-width: 360px;
   }
 }
-```
-
 /* git add .
 git commit -m "test: deployment pipeline working"
 git push origin main */
