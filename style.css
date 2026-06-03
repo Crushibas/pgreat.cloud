@@ -268,7 +268,30 @@ nav div {
 }
 
 
+/* Social links page buttons */
+.link-button {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 16px auto;
+  padding: 18px 24px;
 
+  background: #3b3b3b;
+  color: #f5f5dc;
+  text-decoration: none;
+
+  border-radius: 28px;
+  font-weight: bold;
+  text-align: center;
+
+  transition: transform .2s, box-shadow .2s, background .2s;
+}
+
+.link-button:hover {
+  background: #5a5a5a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
 
 /* git add .
 git commit -m "test: deployment pipeline working"
