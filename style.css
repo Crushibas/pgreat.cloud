@@ -16,7 +16,7 @@ html, body {
 
 body {
   font-family: "Poppins", "Segoe UI", Helvetica, Arial, sans-serif;
-  background: #d4cbc1;
+  background: #C4A484;
   color: #000000;
   line-height: 1.7;
   display: flex;
@@ -279,7 +279,7 @@ footer {
   margin-top: auto;
   padding: 18px 20px;
   text-align: center;
-  background: #ffffff;
+  background: #8D6944;
   color: #000000;
   border-top: 1px solid #c7bdb2;
 }
