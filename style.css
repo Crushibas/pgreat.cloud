@@ -201,11 +201,12 @@ a.btn:hover {
 
 /* Home page specific */
 .home-grid {
-  display: grid;
-  grid-template-columns: 1fr;
+  max-width: 1100px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 28px;
-  justify-items: center;
-  margin: 40px 0;
 }
 
 .home-card {
