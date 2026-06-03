@@ -194,6 +194,20 @@ a.btn:hover {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+.info-card {
+  text-align: left;
+}
+
+.info-card ul,
+.info-card ol {
+  padding-left: 25px;
+  margin-left: 0;
+}
+
+.info-card li {
+  text-align: left;
+  margin-bottom: 10px;
+}
 .card:hover {
   transform: translateY(-6px);
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
